@@ -1,6 +1,6 @@
 cfs:worker
 =========================
-
+ *******FOR INTERNAL USE ONLY - please use the standard cfs packages in your project *****************
 This is a Meteor package used by
 [CollectionFS](https://github.com/CollectionFS/Meteor-CollectionFS).
 
