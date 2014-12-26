@@ -2,16 +2,16 @@ Package.describe({
   git: 'https://github.com/gliesesoftware/meteor-cfs-worker.git',
   name: 'gliese:cfs-worker',
   version: '0.1.4',
-  summary: 'Gliese flavor of CollectionFS, file worker - handles file copies/versions'
+  summary: 'Gliese flavor of CollectionFS, file worker - handles file copies/versions (INTERNAL USE ONLY)'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
   api.use([
-    'cfs:base-package@0.0.27',
-    'cfs:tempstore@0.1.3',
-    'cfs:storage-adapter@0.1.1'
+    'gliese:cfs-base@0.0.28',
+    'gliese:cfs-tempstore@0.1.4',
+    'gliese:cfs-storage@0.1.2'
   ]);
 
   api.use([
