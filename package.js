@@ -1,7 +1,7 @@
 Package.describe({
   git: 'https://github.com/gliesesoftware/meteor-cfs-worker.git',
   name: 'gliese:cfs-worker',
-  version: '0.1.4',
+  version: '0.1.5',
   summary: 'Gliese flavor of CollectionFS, file worker - handles file copies/versions (INTERNAL USE ONLY)'
 });
 
